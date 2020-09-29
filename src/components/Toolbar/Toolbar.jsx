@@ -3,9 +3,12 @@ import "./Toolbar.css";
 
 export default class Toolbar extends React.Component {
     render() {
+        const generateArray = this.props.generateArray;
+
         return (
             <div id="toolbar">
-                <div className="btn">Generate New Array</div>
+                <div className="btn"
+                    onClick={generateArray()}>Generate New Array</div>
                 <div className="seperator"></div>
                 <div 
                     className="btn">Merge Sort</div>
