@@ -1,0 +1,15 @@
+#body {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+#bars {
+    display: inline-flex;
+}
+
+.bar {
+    background: teal;
+    width: 5px;
+    margin: 0 1px;
+}

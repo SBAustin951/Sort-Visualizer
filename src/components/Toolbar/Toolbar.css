@@ -1,0 +1,27 @@
+#toolbar {
+    background: aquamarine;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.seperator {
+    align-self: center;
+    width: 2px;
+    background: rgba(0, 0, 0, .5);
+    height: 40px;
+}
+
+.btn:hover {
+    color: rgb(0, 200, 0);
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:active {
+    color: rgb(0, 100, 0);
+}
